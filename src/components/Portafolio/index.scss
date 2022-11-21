@@ -1,0 +1,29 @@
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #ffd700;
+    font-size: xx-large;
+}
+
+.parrafo {
+    white-space: pre;
+    font-size: x-large;
+    color: #ffae00;
+    width: 100%;
+}
+
+button{
+    width: 5%;
+    height: 150px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+img{
+    width: 100%;
+}
