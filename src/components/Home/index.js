@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/Nuevo-Logo.png';
 import AnimatedLeters from '../AnimatedLeters';
-import Logo from './Logo';
 import './index.scss';
 import Loader from 'react-loaders'
 
