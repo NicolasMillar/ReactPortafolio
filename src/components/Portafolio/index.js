@@ -5,7 +5,8 @@ import { useState } from 'react';
 import pudu from '../../assets/images/pudu.png';
 import guia from '../../assets/images/guia2.png';
 import intranet from '../../assets/images/intranet.png';
-import comparasuper from '../../assets/images/ComparaSuper.png'
+import comparasuper from '../../assets/images/ComparaSuper.png';
+import Loader from 'react-loaders';
 
 const imagenes = [
     pudu,
