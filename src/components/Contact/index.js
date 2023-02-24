@@ -4,8 +4,6 @@ import AnimatedLetters from '../AnimatedLeters';
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faThumbsUp} from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
@@ -29,7 +27,7 @@ const Contact = () => {
               title: 'Message successfully sent!',
               text: 'Thank you for contacting me, you will receive an answer as soon as possible.',
               icon: 'success',
-              confirmButton: '<FontAwesomeIcon icon={faThumbsUp} /> Great!',
+              confirmButton: 'Great!',
             })
           },
           () => {
