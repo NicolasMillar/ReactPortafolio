@@ -3,6 +3,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLeters';
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -21,7 +22,11 @@ const Contact = () => {
         .sendForm('default_service', 'template_ljjuq6c', form.current, 'tr8gVjvAbVahzGzor')
         .then(
           () => {
-            alert('Message successfully sent!')
+            Swal.fire(
+              'Good job!',
+              'You clicked the button!',
+              'success'
+            )
           },
           () => {
             alert('Failed to send the message, please try again')
