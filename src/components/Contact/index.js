@@ -27,14 +27,17 @@ const Contact = () => {
               title: 'Message successfully sent!',
               text: 'Thank you for contacting me, you will receive an answer as soon as possible.',
               icon: 'success',
-              confirmButtonText: 'Great!'
+              showConfirmButton: false,
+              timer: 1500
             })
           },
           () => {
             Swal.alert({
               title: 'Failed to send the message!',
               text: 'sorry an error occurred, please try again.',
-              icon: 'error'
+              icon: 'error',
+              showConfirmButton: false,
+              timer: 1500
             })
           }
         )
