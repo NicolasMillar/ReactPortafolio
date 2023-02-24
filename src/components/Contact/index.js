@@ -22,11 +22,10 @@ const Contact = () => {
         .sendForm('default_service', 'template_ljjuq6c', form.current, 'tr8gVjvAbVahzGzor')
         .then(
           () => {
-            Swal.fire(
-              'Message successfully sent!',
-              'Thank you for contacting me, you will receive an answer as soon as possible.',
-              'success'
-            )
+            Swal.fire({
+              title: 'Message successfully sent!',
+              text: 'Thank you for contacting me, you will receive an answer as soon as possible.'
+            })
           },
           () => {
             alert('Failed to send the message, please try again')
