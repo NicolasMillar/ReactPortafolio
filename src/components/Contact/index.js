@@ -23,8 +23,8 @@ const Contact = () => {
         .then(
           () => {
             Swal.fire(
-              'Good job!',
-              'You clicked the button!',
+              'Message successfully sent!',
+              'Thank you for contacting me, you will receive an answer as soon as possible.',
               'success'
             )
           },
