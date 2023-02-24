@@ -69,6 +69,7 @@ const Portafolio = () => {
                     </div>
                 </div>
             </div>
+            <Loader type="line-spin-fade-loader" />
         </>
     )
 }
