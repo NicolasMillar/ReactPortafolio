@@ -35,7 +35,7 @@ const Home = () =>{
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
             </div>
-            <Loader type="ball-pulse-rise" />
+            <Loader type="semi-circle-spin" />
         </>
         
     )

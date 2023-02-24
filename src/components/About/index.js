@@ -58,7 +58,7 @@ const About = () =>{
                     </div>
                 </div>
             </div>
-            <Loader type="ball-pulse-rise" />
+            <Loader type="semi-circle-spin" />
         </>
         
     )
