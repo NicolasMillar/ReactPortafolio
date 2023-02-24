@@ -27,7 +27,7 @@ const Contact = () => {
               title: 'Message successfully sent!',
               text: 'Thank you for contacting me, you will receive an answer as soon as possible.',
               icon: 'success',
-              confirmButton: 'Great!',
+              confirmButtonText: 'Great!'
             })
           },
           () => {
