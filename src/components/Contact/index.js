@@ -4,6 +4,9 @@ import AnimatedLetters from '../AnimatedLeters';
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faThumbsUp} from '@fortawesome/free-solid-svg-icons';
+
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,11 +27,17 @@ const Contact = () => {
           () => {
             Swal.fire({
               title: 'Message successfully sent!',
-              text: 'Thank you for contacting me, you will receive an answer as soon as possible.'
+              text: 'Thank you for contacting me, you will receive an answer as soon as possible.',
+              icon: 'success',
+              confirmButton: '<FontAwesomeIcon icon={faThumbsUp} /> Great!',
             })
           },
           () => {
-            alert('Failed to send the message, please try again')
+            Swal.alert({
+              title: 'Failed to send the message!',
+              text: 'sorry an error occurred, please try again.',
+              icon: 'error'
+            })
           }
         )
     }
