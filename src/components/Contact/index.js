@@ -28,7 +28,7 @@ const Contact = () => {
               text: 'Thank you for contacting me, you will receive an answer as soon as possible.',
               icon: 'success',
               showConfirmButton: false,
-              timer: 1500
+              timer: 2500
             })
           },
           () => {
@@ -37,7 +37,7 @@ const Contact = () => {
               text: 'sorry an error occurred, please try again.',
               icon: 'error',
               showConfirmButton: false,
-              timer: 1500
+              timer: 2500
             })
           }
         )

@@ -1,4 +1,4 @@
-.contact-form {
+  .contact-form {
     width: 100%;
     margin-top: 20px;
   
@@ -71,6 +71,11 @@
       text-align: center;
       margin-right: 10px;
     }
+  }
+
+  .swal2-popup {
+    font-size: 1.6rem !important;
+    font-family: Georgia, serif;
   }
   
   .map-wrap {
