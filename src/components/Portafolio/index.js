@@ -70,7 +70,7 @@ const Portafolio = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="line-spin-fade-loader" />
+            <Loader type="ball-pulse-rise" />
         </>
     )
 }
