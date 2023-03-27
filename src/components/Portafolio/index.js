@@ -6,9 +6,11 @@ import pudu from '../../assets/images/pudu.png';
 import guia from '../../assets/images/guia2.png';
 import intranet from '../../assets/images/intranet.png';
 import comparasuper from '../../assets/images/ComparaSuper.png';
+import diccionario from '../../assets/images/Diccionario.png';
 import Loader from 'react-loaders';
 
 const imagenes = [
+    diccionario,
     pudu,
     guia,
     comparasuper,
@@ -16,6 +18,7 @@ const imagenes = [
 ];
 
 const titulos = [
+    "Dictionary/Translator for native peoples(chile)",
     "Pudu",
     "Java developer–LABCIM ",
     "Full Stack Developer–LABCIM ",
@@ -23,6 +26,7 @@ const titulos = [
 ];
 
 const Descripcion = [
+    "This project aims to develop a translator/dictionary for the vast majority of Chile's of the native peoples of Chile. Due to the fact that I do not \nhave a complete understanding of these languages, the web page is only capable of translating words and not complete sentences. \nThis proyect is in https://dicionarios-pueblos-originarios-chile.netlify.app",
     "Pudu is the MVP of an App that tells nutrition value and environment impact of foods. This App was \ndeveloped in React-native, we built it for the IBM Call For Code 2022 in a team of three Software \nEngineers and 2 artists.",
     "I developed computer vision programs in Java using the OpenCV library, and then \ntransferred them to a Scorbot robotic arm, making it perform automated tasks with the \nhelp of number and symbol recognition. I developed educational guides and \ndocumentation for future developers.",
     "I developed the frontend of a web application (comparasuper.shop), where I mainly used JavaScript, HTML, CSS and Bootstrap.\nSome of the functionalities I developed are: PDF generator from data received by Django Rest Framework, \na tool that displays dynamic graphics and some frontend views. This proyect was \ndeveloped whit Felipe Jimenez(https://felipejimenez.dev/)",
